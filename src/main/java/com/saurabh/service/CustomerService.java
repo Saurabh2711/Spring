@@ -1,6 +1,7 @@
 package com.saurabh.service;
 
 import com.saurabh.model.Customer;
+import com.saurabh.repository.CustomerRepository;
 
 import java.util.List;
 
@@ -8,5 +9,6 @@ import java.util.List;
  * Created by saurabh.uttam on 8/27/17.
  */
 public interface CustomerService {
-    List<Customer> findAll();
+
+    abstract List<Customer> findAll();
 }
